@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/genshi/!svn/ver/767/trunk/genshi/template/tests/templates
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/genshi/!svn/ver/433/trunk/genshi/template/tests/templates/test.html
+END
+test_no_doctype.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/genshi/!svn/ver/767/trunk/genshi/template/tests/templates/test_no_doctype.html
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/genshi/!svn/ver/433/trunk/genshi/template/tests/templates/__init__.py
+END
+functions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/genshi/!svn/ver/433/trunk/genshi/template/tests/templates/functions.txt
+END
+functions.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/genshi/!svn/ver/433/trunk/genshi/template/tests/templates/functions.html
+END
+new_syntax.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/genshi/!svn/ver/706/trunk/genshi/template/tests/templates/new_syntax.txt
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/genshi/!svn/ver/433/trunk/genshi/template/tests/templates/test.txt
+END

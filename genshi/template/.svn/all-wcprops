@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/genshi/!svn/ver/1129/trunk/genshi/template
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/base.py
+END
+_ast24.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/genshi/!svn/ver/999/trunk/genshi/template/_ast24.py
+END
+ast24.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/genshi/!svn/ver/1078/trunk/genshi/template/ast24.py
+END
+plugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/genshi/!svn/ver/1082/trunk/genshi/template/plugin.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/genshi/!svn/ver/706/trunk/genshi/template/__init__.py
+END
+markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/markup.py
+END
+directives.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/genshi/!svn/ver/1129/trunk/genshi/template/directives.py
+END
+text.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/genshi/!svn/ver/1088/trunk/genshi/template/text.py
+END
+astutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/astutil.py
+END
+loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/loader.py
+END
+eval.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/eval.py
+END
+interpolation.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/genshi/!svn/ver/1082/trunk/genshi/template/interpolation.py
+END

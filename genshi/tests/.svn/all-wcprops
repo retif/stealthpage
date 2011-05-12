@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/repos/genshi/!svn/ver/1087/trunk/genshi/tests
+END
+core.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/genshi/!svn/ver/1085/trunk/genshi/tests/core.py
+END
+path.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/genshi/!svn/ver/1087/trunk/genshi/tests/path.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/genshi/!svn/ver/1077/trunk/genshi/tests/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/genshi/!svn/ver/538/trunk/genshi/tests/__init__.py
+END
+input.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/genshi/!svn/ver/1077/trunk/genshi/tests/input.py
+END
+output.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/genshi/!svn/ver/1085/trunk/genshi/tests/output.py
+END
+builder.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/genshi/!svn/ver/1081/trunk/genshi/tests/builder.py
+END

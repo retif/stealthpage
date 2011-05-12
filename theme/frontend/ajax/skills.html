@@ -1,0 +1,52 @@
+<fieldset style="width:476px;" xmlns:py="http://genshi.edgewall.org/">
+    <legend>Skills:</legend>
+    <div class="column last" style="width:100%;">
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+        <thead>
+            <tr>
+                <th>Skill Name</th>
+                <th>Current</th>
+                <th>Changed</th>
+                <th>Lock</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr py:for="skill in skills">
+                <td>$skill.name</td>
+                <td>$skill.current</td>
+                <td class="center">$skill.increased</td>
+                <td class="center">^</td>
+            </tr>
+            <!--tr class="gradeA">
+                <td>Alchemy</td>
+                <td>100</td>
+                <td>100</td>
+                <td class="center">+0.2</td>
+                <td class="center">^</td>
+            </tr>
+            <tr class="gradeX">
+                <td>Anatomy</td>
+                <td>100</td>
+                <td>100</td>
+                <td class="center">+0.2</td>
+                <td class="center">^</td>
+            </tr-->
+        </tbody>
+    </table>
+<script type="text/javascript">
+$(document).ready(function(){
+    oTable = $('#example').dataTable({
+        "bPaginate": false,
+        "bLengthChange": false,
+//        "bFilter": true,
+//        "bSort": true,
+        "bInfo": false,
+        "bAutoWidth": true,
+        "sScrollY": 328,
+        "bJQueryUI": true
+//        "sPaginationType": "full_numbers"
+    });
+});
+</script>
+    </div>
+</fieldset>

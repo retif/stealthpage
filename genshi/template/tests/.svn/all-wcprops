@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/tests
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/genshi/!svn/ver/500/trunk/genshi/template/tests/base.py
+END
+plugin.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/genshi/!svn/ver/835/trunk/genshi/template/tests/plugin.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/genshi/!svn/ver/538/trunk/genshi/template/tests/__init__.py
+END
+markup.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/genshi/!svn/ver/1088/trunk/genshi/template/tests/markup.py
+END
+directives.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/tests/directives.py
+END
+text.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/genshi/!svn/ver/1088/trunk/genshi/template/tests/text.py
+END
+loader.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/tests/loader.py
+END
+eval.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/genshi/!svn/ver/1120/trunk/genshi/template/tests/eval.py
+END
+interpolation.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/genshi/!svn/ver/856/trunk/genshi/template/tests/interpolation.py
+END

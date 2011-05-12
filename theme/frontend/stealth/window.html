@@ -1,0 +1,84 @@
+<py xmlns:py="http://genshi.edgewall.org/">
+<div class="span-20 last" style="background: url(/skin/frontend/images/windowtitle.png) no-repeat;padding-top:31px;">
+<div class="column last" style="width: 774px;padding-bottom:10px;background: url(/skin/frontend/images/bottomBorder.png) no-repeat;background-position: bottom;">
+<div class="column last" style="padding-left:10px;background: url(/skin/frontend/images/leftBorder.png) repeat-y;">
+<div class="column last" style="width: 755px;padding-right:8px;background: url(/skin/frontend/images/rightBorder.png) repeat-y;background-position: right;">
+  <div class="span-20 last">
+      <div class="column border" style="width:256px;margin-right: 1px;">
+          <fieldset>
+              <legend>Character connections:</legend>
+          <div class="column last" style="opacity:0.2;width:100%;height:24px;background:url(/skin/frontend/images/charListControls.png) no-repeat;">
+          </div>
+          <div id="charlist" class="column last" style="width:100%;height:362px;border:solid 1px grey;padding-top:1px;">
+              <div py:for="char in Registry().get('chars')" class="charTab column last" char="${char.name}" style="width:242px;border:solid 1px black;margin:1px;background-color: #ffeaea;"> <!---->
+                  profile: ProfName<br/>
+                  char: ${char.name}<br/>
+                  Scripts: 0
+              </div>
+          </div>
+          </fieldset>
+      </div>
+        <div id="tabs" class="column last" style="width:485px;min-height: 472px;">
+            <ul>
+                <li><a href="/main/stub">Main</a></li>
+                <li><a href="/skills/stub">Skills</a></li>
+                <li><a href="#tabs-3">World</a></li>
+                <li><a href="/journal/stub">UO Journal</a></li>
+                <li><a href="#tabs-5">Map</a></li>
+            </ul>
+          <div id="tabs-1" class="column last">
+          </div>
+        <div id="tabs-2" class="column last" style="">
+        </div>
+        <div id="tabs-4" class="column last">
+        </div>
+      </div>
+    </div>
+  <div class="span-20 last">
+      <fieldset style="width:750px;">
+          <legend>System journal:</legend>
+          <div class="column" style="margin-right:0px;">
+          <textarea style="width:700px;height:150px;"> </textarea>
+          </div>
+          <div class="column last" style="opacity:0.2;width:32px;height:145px;background:url(/skin/frontend/images/journalButtons.png) no-repeat;">
+          </div>
+      </fieldset>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#tabs').tabs({
+        remote: true,
+        disabled: [2, 4],
+    });
+    $('.charTab').click(function (){
+        $('.charTab').css('border','solid 1px black');
+        $(this).css('border','solid 3px #3399ff');
+        var curChar = $(this).attr('char');
+        $.cookie('char', curChar);
+        var tabs = $('#tabs');
+        var selected = tabs.tabs('option','selected');
+        tabs.tabs('url', 0, '/main/'+curChar);
+        tabs.tabs('url', 1, '/skills/'+curChar);
+        tabs.tabs('url', 3, '/journal/'+curChar);
+        tabs.tabs('load', selected);
+    });
+    var lastChar = $.cookie('char');
+    if(lastChar) {
+        $(".charTab[char="+lastChar+"]").click();
+    } else {
+        $('.charTab').first().click();
+    }
+    setInterval(function () {
+        var tabs = $('#tabs');
+        tabs.tabs('load', tabs.tabs('option','selected'));
+    }, 10*1000);
+});
+
+function oncharclick() {
+}
+</script>
+</py>

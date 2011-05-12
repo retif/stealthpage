@@ -1,0 +1,25 @@
+<py xmlns:py="http://genshi.edgewall.org/">
+<div id="header" class="span-24 last" >
+    <div class="span-17 colborder">
+        <h1 id="book_haven">StealthPage</h1>
+          </div>
+    <div class="span-6 last" style="padding-top: 15px;">
+        <div py:if="not Registry().get('user')">
+            <script src="http://loginza.ru/js/widget.js" type="text/javascript">
+            </script>
+            <a href="http://loginza.ru/api/widget?token_url=http://stealthpage.appspot.com&amp;providers_set=vkontakte,google,yandex,mailru,facebook,twitter" class="loginza">
+                <img src="http://loginza.ru/img/sign_in_button_gray.gif" alt="Войти через loginza"/>
+            </a>
+        </div>
+        <py:if test="Registry().get('user')">
+        <h3 style="margin:0px;">Привет, ${Registry().get('user').name}</h3> <span><a href="/logout">logout</a></span>
+        </py:if>
+
+    </div>
+</div>
+<hr />
+<div id="subheader" class="span-24 last">
+  <h3 class="alt">Смотрим статы, скилы, журнал онлайн.</h3>
+</div>
+<hr />
+</py>

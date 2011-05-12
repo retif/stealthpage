@@ -1,0 +1,31 @@
+<py xmlns:py="http://genshi.edgewall.org/">
+<div>
+<h3 class="caps">Access Key</h3>
+
+<div class="box">
+  <div class="quiet">
+      <py:if test="Registry().get('user')">
+<textarea id="key" readonly="readonly" style="width:64px;height:64px;">${Registry().get('user').access_key}</textarea>
+      </py:if>
+      <py:if test="not Registry().get('user')">
+          Что бы получить ключ нужно войти на сайт.
+      </py:if>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#key').click(function(){$(this).select()})
+});
+</script>
+</div>
+</div>
+<div>
+<h3 class="caps">Faq</h3>
+
+<div class="box">
+  <div class="quiet">
+      Вставь access key в скрипт stealthpage.pas. Скрипт командой uses stealthpage подключи к основному скрипту. Запускай основной скрипт. Через минуту рефреш тут страницу.
+</div>
+
+</div>
+</div>
+</py>

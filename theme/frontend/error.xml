@@ -1,0 +1,3 @@
+<orgmenote xmlns:py="http://genshi.edgewall.org/">
+    <error_message>$message</error_message>
+</orgmenote>
