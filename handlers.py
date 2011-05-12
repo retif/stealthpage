@@ -102,7 +102,7 @@ class AjaxTabsHandler(RequestHandler):
             skills= char.skills.fetch(1000)
             self.response.out.write(blocks.render_template('ajax/skills.html', {'skills':skills}))
         else:
-            self.response.out.write(blocks.render_template('ajax/main.html', {'skills':[]}))
+            self.response.out.write(blocks.render_template('ajax/skills.html', {'skills':[]}))
 
     def journal(self,char):
         if UserSession().isLogged() and char!= 'stub':
@@ -111,7 +111,8 @@ class AjaxTabsHandler(RequestHandler):
             journal = models.CharJournal.get_or_insert(char.key().name(), char=char)
             self.response.out.write(blocks.render_template('ajax/journal.html', {'journal':journal}))
         else:
-            self.response.out.write(blocks.render_template('ajax/journal.html', {'journal':[]}))
+
+            self.response.out.write(blocks.render_template('ajax/journal.html', {'journal':models.CharJournal()}))
 
     def stub(self):
         pass
