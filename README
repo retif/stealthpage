@@ -1,1 +1,22 @@
-http://stealth.od.ua
+StealthPage - веб-фронтенд для программы Stealth (ultima online) который позволяет смотреть статы\скилы\журнал всех ваших запущенных на стелсе чаров.
+
+Stealth - http://stealth.od.ua
+
+Публичный веб-фронтенд - http://stealthpage.appspot.com/ (только хозяин может смотреть своих чаров)
+
+Чтобы запустить систему нужно скачать модуль https://github.com/retif/stealthpage/raw/master/stealthpage.pas
+Залогинится на фронтенде и скопировать в буфер обмена свой access-key.
+В 5 строчке файла stealthpage.pas заменяем access-key на свой.
+Встраиваем юнит в свой скрипт. Пример:
+
+program test; 
+uses stealthpage;
+       
+BEGIN
+while True do
+begin
+wait(1);
+end;
+END.
+
+Запускаем скрипт. Через пол минуты можно смотреть на сайте информацию по чарам, в скрипты которым был встроен модуль stealthpage.
