@@ -81,7 +81,7 @@ class MainHandler(RequestHandler):
                 #make flash message
                 self.redirect('/')
 
-
+        self.response.out.write('Something goes wrong')
 
 
 class AjaxTabsHandler(RequestHandler):
