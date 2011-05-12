@@ -2,7 +2,7 @@ StealthPage - веб-фронтенд для программы Stealth (ultima 
 
 Stealth - http://stealth.od.ua
 
-Публичный веб-фронтенд - http://stealthpage.appspot.com/ (только хозяин может смотреть своих чаров)
+Публичный веб-фронтенд - http://stealthpage.appspot.com/ (только хозяин может смотреть своих чаров залогинившись)
 
 Чтобы запустить систему нужно скачать модуль https://github.com/retif/stealthpage/raw/master/stealthpage.pas
 Залогинится на фронтенде и скопировать в буфер обмена свой access-key.

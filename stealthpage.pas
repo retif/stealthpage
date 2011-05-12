@@ -42,7 +42,7 @@ begin
   skills.Add('Chivalry');
   skills.Add('Cooking');
   skills.Add('Detect Hidden');
-  skills.Add('Enticement (Discordance)');
+  skills.Add('Enticement');
   skills.Add('Evaluate Intelligence');
   skills.Add('Fencing');
   skills.Add('Fishing');
@@ -73,7 +73,6 @@ begin
   skills.Add('Stealing');
   skills.Add('Stealth');
   skills.Add('Swordsmanship');
-  skills.Add('SpellWeaving');
   skills.Add('Tactics');
   skills.Add('Tailoring');
   skills.Add('Taste Identification');

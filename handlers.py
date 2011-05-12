@@ -39,6 +39,7 @@ class MainHandler(RequestHandler):
             logging.info(ini)
             from modules.stealth import importData
             importData(user, ini)
+            return
         if(loginzaToken):
             from google.appengine.api import urlfetch
             from django.utils import simplejson
